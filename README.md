@@ -32,32 +32,33 @@ Set of frame/actionscript Flash animations.
 
 - Multiple lines with radial multi-color gradient and blur.
 
-[![Light](https://github.com/jonasgozdecki/flash_animations/tree/master/light/light_move.png)]()
-`https://github.com/jonasgozdecki/flash_animations/tree/light/light.avi`
+[![Light](https://github.com/jonasgozdecki/flash_animations/blob/master/light/light_move.gif)]()
+         
+`https://github.com/jonasgozdecki/flash_animations/blob/master/light/light_move.avi`
  
 ### Loading
 
 - Loading component
 
-[![Loading](https://github.com/jonasgozdecki/flash_animations/tree/master/loading/loading.png)]()
+[![Loading](https://github.com/jonasgozdecki/flash_animations/blob/master/loading/loading.gif)]()
 
 ### Map
 
 - Brasil's map
 
-[![Map](https://github.com/jonasgozdecki/flash_animations/tree/master/map/map.png)]()
+[![Map](https://github.com/jonasgozdecki/flash_animations/blob/master/map/map.gif)]()
 
 ### ClockLite
 
 - Circle clock, keep some seconds.
 
-[![ClockLite](https://github.com/jonasgozdecki/flash_animations/tree/master/clockLite/clockLite.png)]()
+[![ClockLite](https://github.com/jonasgozdecki/flash_animations/blob/master/clockLite/clockLite.gif)]()
 
 ### Roulette
 
 - Roulette for gamming.
 
-[![Roulette](https://github.com/jonasgozdecki/flash_animations/tree/master/roulette/roulette.png)]()
+[![Roulette](https://github.com/jonasgozdecki/flash_animations/blob/master/roulette/roulette.gif)]()
 
 
 ```javascript
@@ -116,35 +117,35 @@ function calc_rotat(){
 ### Magazine
 
 
-[![Magazine](https://github.com/jonasgozdecki/flash_animations/tree/master/magazine/magazine.png)]()
+[![Magazine](https://github.com/jonasgozdecki/flash_animations/blob/master/magazine/magazine.gif)]()
 
 ### Arm
 
-[![Arm](https://github.com/jonasgozdecki/flash_animations/tree/master/arm/arm.png)]()
+[![Arm](https://github.com/jonasgozdecki/flash_animations/blob/master/arm/arm.gif)]()
 
 ### Servo
 
 - It's part of a project to integrate an electronic device to flash.
 
-[![Servo](https://github.com/jonasgozdecki/flash_animations/tree/master/servo/servo.png)]()
+[![Servo](https://github.com/jonasgozdecki/flash_animations/blob/master/servo/servo.gif)]()
 
 ### Piston
 
 - Clich proccess.
 
-[![Piston](https://github.com/jonasgozdecki/flash_animations/tree/master/piston/piston.png)]()
+[![Piston](https://github.com/jonasgozdecki/flash_animations/blob/master/piston/piston.gif)]()
 
 ### Gears
 
 - First version of Tork project (Kinetic Energy Recovery System).
 
-[![Gears](https://github.com/jonasgozdecki/flash_animations/tree/master/gears/gears.png)]()
+[![Gears](https://github.com/jonasgozdecki/flash_animations/blob/master/gears/gears.gif)]()
 
 ### Ball
 
 - Example of a bouncing ball using actionscript.
 
-[![Ball](https://github.com/jonasgozdecki/flash_animations/tree/master/ball/ball.png)]()
+[![Ball](https://github.com/jonasgozdecki/flash_animations/blob/master/ball/ball.gif)]()
 
 ```javascript
 
