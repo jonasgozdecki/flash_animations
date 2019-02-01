@@ -1,0 +1,20 @@
+with ("bola") {
+    bola._x = 30;
+    bola._y = 10;
+    // posicao inicial do objeto
+    velocidadey = 20;
+    chaotela = 250;
+    gravidade = 2;
+    atrito = .98;
+}
+bola.onEnterFrame = function() {
+    bola._y = bola._y+velocidadey;
+    // movimento inicial
+    if (bola._y-bola._height/2>chaotela) {
+        bola._y = chaotela+bola._height/2;
+        velocidadey = -velocidadey;
+    // rebote caso toque o chao
+    }
+    velocidadey = velocidadey*atrito+gravidade;
+    // formula que cria a gravidade e o atrito
+}; 
