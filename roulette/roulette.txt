@@ -1,0 +1,47 @@
+var vspin:Number=0;
+var vm:Number=0;
+
+var vrot:Number=0;
+
+function spn(){
+	object.spinning = true
+	object.spin = vspin
+	object._rotation = object._rotation = 0
+	
+}
+var sou:Sound = new Sound();
+sou.attachSound("sdown");
+
+var rt:String="";
+
+function calc_rotat(){
+	rt=String(Math.round((_root.object._rotation/9)-_root.object._rotation/50));	
+	_root.num.text=rt;
+	if(isNaN(_root.num.text.substr(0,1))){
+		if(!isNaN(_root.num.text.substr(1,2))){
+ 			_root.num.text="M"+_root.rt.substr(1,2);
+			if(_root.tx_ii.text!=_root.num.text){
+				_root.tx_ii.text=_root.num.text;
+				_root.sou.start();
+				_root.mss.gotoAndPlay("o");
+			}			
+		}else if(!isNaN(_root.num.text.substr(1,1))){
+ 			_root.num.text="M"+_root.rt.substr(1,1);		
+			if(_root.tx_ii.text!=_root.num.text){
+				_root.tx_ii.text=_root.num.text;
+				_root.sou.start();
+				_root.mss.gotoAndPlay("o");
+			}			
+		}
+	}else{
+		_root.num.text="Q"+rt;
+		if(_root.tx_ii.text!=_root.num.text){
+				_root.tx_ii.text=_root.num.text;
+				_root.sou.start();
+				_root.mss.gotoAndPlay("o");
+		}			
+	}
+	//limpa_nums();
+	this[_root.num.text]._visible=true;
+	
+}
