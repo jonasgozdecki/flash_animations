@@ -1,0 +1,98 @@
+var mud:Number;
+
+onEnterFrame = function () {
+
+    valores = new Date();
+    hora = valores.getHours();
+    minuto = valores.getMinutes();
+    segundo = valores.getSeconds();
+
+    //acrescenta o 0 se o valor for menor que 10
+    if (hora<10) {
+        hora = "0"+hora;
+    }
+    if (minuto<10) {
+        minuto = "0"+minuto;
+    }
+    if (segundo<10) {
+        segundo = "0"+segundo;
+    }
+
+    txhora = hora;
+	txmin = minuto;
+	txseg = segundo;
+	if (mud<>segundo){
+		mud=segundo;	
+		
+		m1.n1.s1=segundo-1;
+		m1.gotoAndPlay("in");		
+
+		m2.n2.s2=segundo-2;
+		m2.gotoAndPlay("in");		
+		
+		m3.n3.s3=segundo-3;
+		m3.gotoAndPlay("in");
+		
+		m4.n4.s4=segundo-4;
+		m4.gotoAndPlay("in");
+		
+		m5.n5.s5=segundo-5;
+		m5.gotoAndPlay("in");
+		
+		m6.n6.s6=segundo-6;
+		m6.gotoAndPlay("in");		
+		
+		m7.n7.s7=segundo-7;
+		m7.gotoAndPlay("in");		
+		
+		m8.n8.s8=segundo-8;
+		m8.gotoAndPlay("in");		
+		
+		m9.n9.s9=segundo-9;
+		m9.gotoAndPlay("in");		
+		
+		m10.n10.s10=segundo-10;
+		m10.gotoAndPlay("in");		
+		
+		m10.n10.s10=segundo-10;
+		m10.gotoAndPlay("in");		
+		
+		m11.n11.s11=segundo-11;
+		m11.gotoAndPlay("in");		
+		
+		m12.n12.s12=segundo-12;
+		m12.gotoAndPlay("in");				
+		
+		m13.n13.s13=segundo-13;
+		m13.gotoAndPlay("in");		
+		
+		m14.n14.s14=segundo-14;
+		m14.gotoAndPlay("in");		
+		
+		m15.n15.s15=segundo-15;
+		m15.gotoAndPlay("in");		
+		
+		m16.n16.s16=segundo-16;
+		m16.gotoAndPlay("in");		
+		
+		m17.n17.s17=segundo-17;
+		m17.gotoAndPlay("in");		
+		
+		m18.n18.s18=segundo-18;
+		m18.gotoAndPlay("in");		
+		
+		m19.n19.s19=segundo-19;
+		m19.gotoAndPlay("in");
+		
+		m20.n20.s20=segundo-20;
+		m20.gotoAndPlay("in");	
+		
+		m21.n21.s21=segundo-21;
+		m21.gotoAndPlay("in");	
+		
+		m22.n22.s22=segundo-22;
+		m22.gotoAndPlay("in");			
+		
+	}
+	
+};
