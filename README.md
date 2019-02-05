@@ -141,6 +141,10 @@ function calc_rotat(){
 
 [![Gears](https://github.com/jonasgozdecki/flash_animations/blob/master/gears/gears.gif)]()
 
+- Hydraulic version of a wankel engine concept. Missing lots of parts usyally found in those systems.
+
+[![Gears](https://github.com/jonasgozdecki/flash_animations/blob/master/gears/wankel.gif)]()
+
 ### Ball
 
 - Example of a bouncing ball using actionscript.
